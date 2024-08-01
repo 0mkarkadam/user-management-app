@@ -1,1 +1,6 @@
 streamlit
+pandas
+st-aggrid
+streamlit-option-menu
+matplotlib
+seaborn

@@ -1,0 +1,32 @@
+/* styles.css */
+.main-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #4B6584;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sub-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4B6584;
+}
+.form-container {
+    background-color: #f0f4f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.btn {
+    background-color: #4B6584;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #3A506B;
+}
