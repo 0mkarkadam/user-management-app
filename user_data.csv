@@ -1,5 +1,6 @@
-Username,Email,Role
-Omkar Kadam,omkarkadam1075@gmail.com,Admin Access
-Priyesh,priyesh@gmail.com,Edit Access
-user1,user1@gmail.com,View Access
-user2,user2@gmail.com,View Access
+Username,Email,Role,Password
+Omkar Kadam,omkarkadam1075@gmail.com,Admin Access,
+Priyesh,priyesh@gmail.com,Edit Access,
+user1,user1@gmail.com,View Access,
+user2,user2@gmail.com,View Access,
+admin,admin@gmail.com,View Access,admin123
