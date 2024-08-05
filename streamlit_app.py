@@ -133,16 +133,16 @@ def user_management_console():
     st.dataframe(users_df)
 
     # Plotting charts
-    df = pd.DataFrame(st.session_state['users'])
-    if not df.empty:
-        st.write("### User Role Distribution")
-        fig, ax = plt.subplots()
-        role_counts = df['Role'].value_counts()
-        sns.barplot(x=role_counts.index, y=role_counts.values, ax=ax)
-        ax.set_xlabel("Role")
-        ax.set_ylabel("Count")
-        ax.set_title("Distribution of User Roles")
-        st.pyplot(fig)
+    # df = pd.DataFrame(st.session_state['users'])
+    # if not df.empty:
+    #     st.write("### User Role Distribution")
+    #     fig, ax = plt.subplots()
+    #     role_counts = df['Role'].value_counts()
+    #     sns.barplot(x=role_counts.index, y=role_counts.values, ax=ax)
+    #     ax.set_xlabel("Role")
+    #     ax.set_ylabel("Count")
+    #     ax.set_title("Distribution of User Roles")
+    #     st.pyplot(fig)
 
 # Add User Page
 def add_user_page():
